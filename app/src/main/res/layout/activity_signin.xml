@@ -39,7 +39,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editText9"
-        android:onClick="onClick"/>
+        android:onClick="onClick" />
 
     <Button
         android:id="@+id/button3"
@@ -48,7 +48,8 @@
         android:layout_marginTop="8dp"
         android:text="계정만들기"
         app:layout_constraintStart_toStartOf="@+id/button2"
-        app:layout_constraintTop_toBottomOf="@+id/button2" />
+        app:layout_constraintTop_toBottomOf="@+id/button2"
+        android:onClick="toSignup" />
 
     <ImageView
         android:id="@+id/imageView4"
